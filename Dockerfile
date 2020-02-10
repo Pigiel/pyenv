@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 # Install required python & git packages
 RUN apt-get update && apt-get install -y \
-	python3.6-dev \
+	python3.8-dev \
 	python3-pip \
 	python-setuptools \
 	openssl \
