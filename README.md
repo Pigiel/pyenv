@@ -1,3 +1,3 @@
-# PyGit
+# PyEnv
 
-Repository for Python environment Docker image with git commands
+Repository for Docker image with Python environment and developer libraries
