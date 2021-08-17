@@ -1,5 +1,8 @@
 FROM ubuntu:focal
 
+# Prevents the installer from opening dialog boxes 
+ENV DEBIAN_FRONTEND=noninteractive
+
 # Install required python & git packages
 RUN apt-get update && apt-get install -y \
 	python3.9-dev \
